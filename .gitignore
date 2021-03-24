@@ -12,7 +12,7 @@ obj/
 /wwwroot/node_modules
 
 ### vscode ###
-.vscode/*
+.vscode/
 !.vscode/settings.json
 !.vscode/tasks.json
 !.vscode/launch.json
@@ -47,4 +47,8 @@ $RECYCLE.BIN/
 
 # End of https://www.toptal.com/developers/gitignore/api/windows,vscode,dotnetcore
 
-# Extra files to ignore
+# Extra files/directories to ignore
+Properties/
+
+*.json
+*.csproj
